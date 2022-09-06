@@ -31,9 +31,15 @@
             </nav>
         </header>"; 
     ?>
-    <div class="cadastro_produtos">
-        <p id="cad_titulo">Cadastro de Produtos</p>
 
+    <div class="container_paginas">
+        <div class="titulo">
+            <!--<img class ="img_titulo" src="../../img/cacto.png">-->
+            <p class="cadastro_titulos">Cadastre-se na loja</p>
+             <!--<img class ="img_titulo" src="../../img/cacto.png">-->
+        </div>
+        
+ 
         <div class="form_cad_prod">             
             <form enctype="multipart/form-data" action="cad_novo_produtos_back.php" method="post">
                 <div class="input-group">
