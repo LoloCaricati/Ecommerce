@@ -599,6 +599,7 @@ img{
   flex-direction: row;
   margin: 10px 5px;
   padding: 10px;
+  
 
   /* margin-left: 33%; */ /* Não acredito que seja a melhor opção para centralizar, porém vcs que decidam :) */
 }
@@ -606,13 +607,17 @@ img{
 .input-box input {
   margin: 10px 0px;
   padding: 0.8rem 1.2rem;
-  border: none;
   border-radius: 10px;
   box-shadow: 1px 1px 6px #0000001c;
   text-align: center;
   font-size:14px;
   font-family: 'Courier New', Courier, monospace;
   width: 400px;
+  background-color:#588068; /*#C5D8A4;*/
+}
+
+.form_alinha{
+  text-align: right;
 }
 
 .input-box input:hover {

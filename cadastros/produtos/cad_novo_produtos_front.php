@@ -45,35 +45,43 @@
                 <div class="input-group">
                     <div class="input-box">
                         <label>
-                            <strong>Nome:</strong><br />    
+                            <!-- <strong class="form_alinha">Nome:</strong><br /> -->
+
+                            <label class="form_alinha">Nome </label>
                             <input type="text" name="nome" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Descrição:</strong><br />    
+                            <!--<strong>Descrição:</strong><br /> -->
+                                
+                            <label class="form_alinha">Descrição:</label>
                             <input type="text" name="descricao" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Estoque:</strong><br />
+                            <!-- <strong>Estoque:</strong><br /> -->
+
+                            <label class="form_alinha">Estoque:</label>
                             <input type="number" name="estoque" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Código Visual:</strong><br />
+                            <!-- <strong>Código Visual:</strong><br />  -->
+
+                            <label class="form_alinha">Código Visual:</label>
                             <input type="text" name="codigovisual" maxlength="13" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <div>
-                        <strong>Imagem</strong><br>
+                        <strong>Imagem</strong><br> 
                             <div class="max-width">
                                 <div class="imageContainer">
                                     <img src="../../img/camera.svg" alt="Selecione uma imagem para o produto" id="imgProduto">
@@ -86,28 +94,35 @@
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Preço:</strong><br />
+                           <!-- <strong>Preço:</strong><br /> -->
+                            <label class="form_alinha">Preço </label>
                             <input type="text" name="preco" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Custo:</strong><br />
+                            <!-- <strong>Custo:</strong><br /> -->
+
+                            <label class="form_alinha">Custo: </label>
                             <input type="text" name="custo"  /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>Margem de Lucro:</strong><br />
+                           <!-- <strong>Margem de Lucro:</strong><br /> -->
+
+                            <label class="form_alinha">Margem Lucro: </label>
                             <input type="text" name="margem_lucro" /><br />
                             <br />
                         </label>
                     </div>
                     <div class="input-box">
                         <label>
-                            <strong>ICMS:</strong><br />
+                            <!-- <strong>ICMS:</strong><br /> -->
+
+                            <label class="form_alinha">ICMS </label>
                             <input type="text" name="icms" /><br />
                             <br />
                         </label>
