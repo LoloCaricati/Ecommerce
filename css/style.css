@@ -689,48 +689,74 @@ img{
 
 .cellHeader{
   text-align: center !important;
+  align-items: center;
+  justify-content: center;
 }
 
 .cellPeq{ /* cellId */
 
   width: 75px;
   height: 60px;
-  font: 12px var(--body-font);
+  font: 16px var(--body-font);
   color: var(--text-color);
+  margin-left: 70px;
+  text-align: center;
 }
 
 .cellGrande{ /* cellNome */
   align-items: center;
   width:145px;
   height: 60px;
-  font: 12px var(--body-font);
+  font: 16px var(--body-font);
+  /*font-family: verdana;*/
   color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
 }
 
 .cellMedia{ /*cellMargemLucro */
   align-items: center;
   width: 105px;
   height: 60px;
-  font: 12px var(--body-font);
+  font: 16px var(--body-font);
   color: var(--text-color);
+  text-align: center;
+  margin-left: 100px;
 }
 
 .cellMenor{
   align-items: center;
-  width: 60px;
+  width: 100px;
   height: 60px;
-  font: 12px var(--body-font);
+  font: 16px var(--body-font);
   color: var(--text-color);
+  text-align: center;
+  text-decoration: none;
 }
 
 .cellEnorme{
   align-items: center;
-  width:200px;
+  width:250px;
   height: 60px;
-  font: 12px var(--body-font);
+  font: 16px var(--body-font);
   color: var(--text-color);
+  text-align: center;
+  /*text-align: center !important;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
 }  
 
+.cellEnormeImg{
+  align-items: center;
+  width:250px;
+  height: 60px;
+  font: 16px var(--body-font);
+  color: var(--text-color);
+  text-align: center;
+  /*text-align: center !important;*/
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}  
 .row{
   margin-top:15px;
   margin-top: 10px;

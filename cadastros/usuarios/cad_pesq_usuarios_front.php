@@ -58,27 +58,26 @@
             echo "
             <div class='tabela'>
                 <div class='fileira'>
-                    <div class='cell cellMedia cellHeader'>
-                        id
+                    <div class='cell cellPeq cellHeader'>
+                        Id
                     </div>
-                    <div class='cell cellGrande cellHeader'>
+                    <div class='cell cellEnorme cellHeader'>
                         IMG
                     </div>
                     <div class='cell cellEnorme cellHeader'>
                         Nome
                     </div>
-                    <div class='cell cellEnorme cellHeader'>
+                    <div class='cell cellGrande cellHeader'>
                         Telefone
                     </div>
                     <div class='cell cellEnorme cellHeader'>
                         E-mail
+                    </div>                    
+                    <div class='cell cellMenor cellHeader'>
+                        Alterar
                     </div>
-                    <div class='cell cellGrande cellHeader'>
-                        CPF
-                    </div>
-                    
-                    <div class='cell cellGrande'>
-                        &nbsp;
+                    <div class='cell cellMenor cellHeader'>
+                        Excluir
                     </div>
                 </div>
                 ";
@@ -88,29 +87,26 @@
                 {
                     echo "
                     <div class='row'>
-                        <div class='cell cellMedia'>
+                        <div class='cell cellPeq'>
                             ".$linha['id_usuario']."
                         </div>
-                        <div class='cell cellEnorme'>
-                            ".'<img src="'.$linha['img'].'" " widht="100px" height="60px">'."
+                        <div class='cell cellEnormeImg'>
+                            ".'<img src="'.$linha['img'].'" " widht="13px" height="13px ">'."
                         </div>
                         <div class='cell cellEnorme'>
                             ".$linha['nome']."
                         </div>
-                        <div class='cell cellEnorme'>
+                        <div class='cell cellGrande'>
                             ".$linha['telefone']."
                         </div>
                         <div class='cell cellEnorme'>
                             ".$linha['email']."
                         </div>
-                        <div class='cell cellGrande'>
-                            ".$linha['cpf']." 
+                        <div class='cell cellMenor'>
+                             <a class='cellMenor' href='cad_altera_usuarios_front.php?id_usuario=".$linha['id_usuario']."'> Alterar</a>&nbsp;
                         </div>
-                        <div class='cell cellPequena'>
-                             <a class='cellPequena' href='cad_altera_produtos_front.php?id_produto=".$linha['id_produto']."'> Alterar</a>&nbsp;
-                        </div>
-                        <div class='cell cellPequena'>
-                            <a  class='cellPequena' href='cad_exclui_produtos_front.php?id_produto=".$linha['id_produto']."'> Excluir</a>&nbsp;
+                        <div class='cell cellMenor'>
+                            <a  class='cellMenor' href='cad_exclui_usuarios_front.php?id_usuario=".$linha['id_usuario']."'> Excluir</a>&nbsp;
                         </div>
                     </div> 
                     "; 
